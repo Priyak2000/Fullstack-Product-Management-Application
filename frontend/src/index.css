@@ -1,0 +1,18 @@
+/* index.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Center the root container */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* use center if you want vertical centering too */
+  min-height: 100vh;
+  padding-top: 40px; /* gives spacing from top */
+}
